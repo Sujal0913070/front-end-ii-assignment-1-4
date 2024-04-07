@@ -1,0 +1,142 @@
+/* This webpage template is created by Sujal Shrestha, C0913070, Date: 04-03-2024 */
+
+/* Styles for the home page */
+
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Changed body background color */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #333; /* Changed header background color */
+    padding: 20px 0;
+    border-bottom: 4px solid #48d34a; /* Added decorative border */
+    color: #fff; /* Changed header text color */
+}
+
+header h1 {
+    font-size: 36px; /* Increased header text size */
+}
+
+header p {
+    font-style: italic; /* Added italic style to paragraph text */
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #7fc34b; /* Changed navigation background color */
+    color: #333; /* Changed navigation text color */
+    padding: 10px 0; /* Reduced padding */
+    clear: both;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for decorative effect */
+}
+
+nav h1 {
+    margin-left: 25px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    color: #333; /* Changed navigation link color */
+    border-bottom: 2px solid transparent; /* Added decorative border */
+    transition: border-bottom 0.3s ease; /* Smooth transition for border */
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff; /* Changed border color on hover */
+}
+
+/* Styles for the container */
+.container {
+    display: flex;
+    background-color: #fff; /* Changed container background color */
+    border-top: 8px solid #60c18c; /* Added decorative border */
+}
+
+/* Main content area styles */
+main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Aside (sidebar) styles */
+aside {
+    margin-right: 40px;
+    margin-bottom: 700px;
+    float: right;
+    width: 20%;
+    background-color: #f5f5f5; /* Changed sidebar background color */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for decorative effect */
+}
+
+aside ul li {
+    padding: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Changed footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Increased padding */
+    clear: both;
+    border-top: 4px solid #ffbb00; /* Added decorative border */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for decorative effect */
+}
+
+/* Media Query for responsiveness */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav h1 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav ul li a {
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        margin: 20px 0;
+    }
+}

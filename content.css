@@ -1,0 +1,199 @@
+/* This webpage template is created by Sujal Shrestha, C0913070,  Date : 04-02-2024 */
+
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #4ecd5d;
+    color: #fff;
+    padding: 10px 0;
+    clear: both;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-left: 25px;
+    font-size: 24px; /* Reduced font size */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-inline: 20px;
+    font-size: 18px; /* Reduced font size */
+    color: white;
+}
+
+/* Main content area styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Left Sidebar styles */
+aside {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    margin-bottom: 10px;
+    text-align: center; /* Centered the heading */
+}
+
+aside ul {
+    padding: 0;
+}
+
+aside ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+aside ul li a img {
+    height: 180px; /* Reduced image height */
+    width: 180px; /* Reduced image width */
+    margin-right: 10px;
+    border-radius: 50%; /* Made the image circular */
+}
+
+/* Article Section styles */
+section {
+    width: 70%;
+}
+
+article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+figure {
+    margin-right: 20px;
+}
+
+figcaption {
+    font-size: 24px; /* Reduced font size */
+}
+
+/* Style for back button in the aside navigation */
+.back-button {
+    float: right;
+    display: block;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background-color: #555;
+}
+/* Add this CSS to your content.css file */
+
+/* Form styles */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0c2026;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0c2026;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background-color: #555;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #558d4d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Reduced padding */
+    clear: both;
+}
+
